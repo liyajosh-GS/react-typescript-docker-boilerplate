@@ -31,7 +31,6 @@
     "@testing-library/user-event": "^14.4.3",
     "@types/autosuggest-highlight": "3.2.0",
     "@types/enzyme": "3.10.12",
-    "@types/enzyme-adapter-react-16": "1.0.6",
     "@types/jest": "26.0.24",
     "@types/lodash": "4.14.191",
     "@types/node": "18.14.2",
@@ -63,7 +62,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "eslint": "eslint --ext .ts,.tsx . --max-warnings=0",
+    "eslint:fix": "eslint --ext .ts,.tsx . --fix"
   },
   "eslintConfig": {
     "extends": [
